@@ -33,6 +33,7 @@ extension ButtonTableViewCell {
     func update(withTask task: Task) {
         taskNameLabel.text = task.name
         updateButton(task.isComplete)
+        
     }
 }
 
